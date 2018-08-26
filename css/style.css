@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sriracha');
 
 :root {
-	--header-height: 36px;
+	--header-height: 70px;
 }
 
 header {
@@ -12,27 +12,18 @@ header {
     background-color: #422814; /* 背景色を茶色に */
     
     font-family : 'Sriracha', cursive;
-    margin: 0; /* 余白をなくす */
-    font-size: 24px; /* 文字の大きさを 24px に */
-    font-weight: normal; /* 文字の太さを太くしない */
-    text-align: center; /* テキストを中央揃えに */
-    color: #fff; /* 文字色を白に */
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
 }
 
 
-#test {
-	text-align: center;
+#pic {
+	margin-top: var(--header-height);
 }
-
-.pic {
-	margin-top: calc(var(--header-height) / 2);
-}
-
 
 
 #intro {
 	
 }
-
-
-
