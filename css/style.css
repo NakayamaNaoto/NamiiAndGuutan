@@ -15,7 +15,6 @@ header {
     font-family : 'Sriracha', cursive;
     margin: 0;
     font-size: calc(var(--font-size) * 1.5);
-    font-size: 48px;
     text-align: center;
     color: #fff;
 }
