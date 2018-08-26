@@ -3,7 +3,10 @@
 
 :root {
 	--header-height: 70px;
+<<<<<<< HEAD
 	--font-size: 48px;
+=======
+>>>>>>> ef6bc06dbb24f3f78ec3d556275cd6ad45ade249
 }
 
 header {
@@ -14,7 +17,11 @@ header {
     
     font-family : 'Sriracha', cursive;
     margin: 0;
+<<<<<<< HEAD
     font-size: calc(var(--font-size) * 1.5);
+=======
+    font-size: 48px;
+>>>>>>> ef6bc06dbb24f3f78ec3d556275cd6ad45ade249
     text-align: center;
     color: #fff;
 }
