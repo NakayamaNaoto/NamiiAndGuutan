@@ -6,6 +6,10 @@
 	--font-size: 48px;
 }
 
+html {
+	width: 100%;
+}
+
 header {
     top: 0;
     width: 100%;
@@ -20,11 +24,19 @@ header {
 }
 
 
+#intro {
+	width: 100%;
+	height: 500px;
+	margin: 0;
+}
+
+
 #pic {
 	margin-top: var(--header-height);
 }
 
-
-#intro {
-	
+#intro-description {
+	text-align: center;
 }
+
+
